@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>contacto</title>
+</head>
+<body>
+    <header class="header__index">
+        <nav class=" clase-navbar navbar navbar-expand-lg bg-body-tertiary col-12 p-3 mb-2 bg-black text-white opacity-75">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/messi.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav position-absolute end-0 fs-4">
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="./galeria.html">galeria</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link mx-2" href="./trayectoria.html">trayectoria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link mx-2" href="./logros.html">logros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link mx-4" href="./contacto.html">contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+            </header>        
+    <main>
+        <section class="formulario" >
+    <h1>comunicate con nosotros</h1>
+    <form class="form"
+        action="./procesar.php" method="post" enctype="application/x-www-form-urlencoded">
+        <div>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name">
+        </div>      
+        <div>   
+            <label for="last name">Apellido</label>
+            <input type="text" name="last-name" id="last-name" >
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="emal" id="email">    
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="text" name="password" id="password">
+        </div>
+        <div>
+            <input type="radio" name="genero" value="masculino">Masculino
+            <input type="radio" name="genero" value="femenino">Femenino
+            <input type="radio" name="genero" value="Otro">Otro
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            </div>
+    </form>
+        <div>
+            <img src="../img/imagenes-contacto/messi contacto.png" alt="messi contacto">
+        </div>
+        </section>
+    </main>
+    <footer class="diseño-footer">
+        <nav>
+            <p>
+                © 2024 todos los derechos reservados
+            </p>
+            <a href="https://www.facebook.com/leomessi/?locale=es_LA" target="_blank"><img src="../img/logos/facebook.png" alt="logo facebook"></a>
+            <a href="https://www.instagram.com/leomessi/" target="_blank" ><img src="../img/logos/instagram.png" alt="logo instagram"></a>    
+        </nav>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
