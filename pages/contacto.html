@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="shortcut icon" href="../img/messi.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/bootstrap.min.css">
     <link rel="stylesheet" href="../styles/style.css">
     <title>contacto</title>
 </head>
@@ -19,6 +20,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav position-absolute end-0 fs-4">
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="../index.html">inicio</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link mx-2" href="./galeria.html">galeria</a>
                         </li>
@@ -36,42 +40,50 @@
                 </div>
             </nav>
             </header>        
-    <main>
-        <section class="formulario" >
-    <h1>comunicate con nosotros</h1>
-    <form class="form"
-        action="./procesar.php" method="post" enctype="application/x-www-form-urlencoded">
-        <div>
-            <label for="name">Nombre</label>
-            <input type="text" name="name" id="name">
-        </div>      
-        <div>   
-            <label for="last name">Apellido</label>
-            <input type="text" name="last-name" id="last-name" >
-        </div>
-        <br>
-        <div>
-            <label for="email">Email</label>
-            <input type="email" name="emal" id="email">    
-        </div>
-        <div>
-            <label for="password">Password</label>
-            <input type="text" name="password" id="password">
-        </div>
-        <div>
-            <input type="radio" name="genero" value="masculino">Masculino
-            <input type="radio" name="genero" value="femenino">Femenino
-            <input type="radio" name="genero" value="Otro">Otro
-        </div>
-        <div>
-            <input type="submit" value="Enviar">
+<main>
+<section class="formulario" >
+    <div>
+        <h1>comunicate con nosotros</h1>
+        <form class="form"
+            action="./procesar.php" method="post" enctype="application/x-www-form-urlencoded">
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name">
+            </div>      
+            <div>   
+                <label for="last name">Apellido</label>
+                <input type="text" name="last-name" id="last-name" >
             </div>
-    </form>
+        <br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="emal" id="email">    
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="text" name="password" id="password">
+            </div>
+            <div>
+                <input type="radio" name="genero" value="masculino">Masculino
+                <input type="radio" name="genero" value="femenino">Femenino
+                <input type="radio" name="genero" value="Otro">Otro
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
         <div>
             <img src="../img/imagenes-contacto/messi contacto.png" alt="messi contacto">
         </div>
         </section>
-    </main>
+    <div>
+        <h2>mis redes sociales</h2>
+        <a href="https://www.facebook.com/leomessi/?locale=es_LA" target="_blank"><img src="../img/logos/facebook.png" alt="logo facebook"></a>
+        <a href="https://www.instagram.com/leomessi/" target="_blank" ><img src="../img/logos/instagram.png" alt="logo instagram"></a>    
+
+    </div>        
+</main>
     <footer class="diseño-footer">
         <nav>
             <p>
@@ -82,6 +94,6 @@
         </nav>
     </footer>
 
-    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

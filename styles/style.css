@@ -75,6 +75,7 @@ a {
 .section__index2 img {
     width: 500px;
     height: 450px;
+
 }
 
 .section__index h1{
@@ -89,8 +90,10 @@ a {
     font-size: 40px;
     margin-bottom: 2%;
 }
-
-
+ @media (min-width:1300px) {
+    .section__index2 img {padding-right: 20px;
+    }
+ }
 @media(min-width:1024px) and (max-width:1300px) {
     .section__index2 h2{
         font-size: 30px;
@@ -164,7 +167,7 @@ a {
     }
 }
 
-@media(min-width:360px) and (max-width:480px) {
+@media(min-width:320px) and (max-width:480px) {
     .section__index h1{
         font-size: 25px;
     }
@@ -252,6 +255,8 @@ li{
 .formulario {
 color: aliceblue;
 display: flex;
+justify-content: space-evenly;
+padding-top: 50px;
 align-items: center;
 justify-content: center;
 font-size: 24px;
@@ -272,15 +277,26 @@ span{
 
 
 /*estilos galeria*/
+
+.imagenes-iconicas:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagenes-iconicas:not(hover) {
+    transition: transform 0.3s ease-in-out;
+}
+
 .h1-galeria {
     color: white;
     font-size: 32px;
     margin-top: 80px; 
-    border: 3px solid white;
-    border-radius: 999px;
     display: flex;
     justify-content: center;
 }
+
+
+    
 
 
     .fotosleo {
@@ -316,7 +332,6 @@ span{
         align-items: center;
         padding: 0px 50px 30px;
         border: 4px solid cornflowerblue;
-        border-radius: 99px;
         margin: 30px 50px;
     }
 
