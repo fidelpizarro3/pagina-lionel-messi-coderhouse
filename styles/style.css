@@ -295,18 +295,6 @@ span{
     justify-content: center;
 }
 
-
-@media(min-width:1024px) and (max-width:1300px) {
-    
-    .descripcion-gol p {
-        font-size: 20px;
-    }
-    .messi-gol-clasico video {
-        
-    }
-    }
-
-
     .fotosleo {
         display: flex;
         flex-direction: column;
@@ -344,8 +332,8 @@ span{
     }
 
     .videosGaleria video{
-        width: 800px;
-        height: 700px;
+        width: 700px;
+        height: 600px;
     
     }
 
@@ -364,6 +352,86 @@ span{
         font-size: 32px;
         padding-bottom: 20px;
     }
+
+    @media(min-width:1024px) and (max-width:1300px) {
+        
+
+        .descripcion-gol p {
+            font-size: 20px;
+        }
+        .messi-gol-clasico>video {
+            width: 500px;
+            height:400px;
+        }
+        }
+    
+        @media(min-width:820px) and (max-width:1024px) {
+        .videosGaleria { flex-direction: column;}
+        .descripcion-gol h2 {
+            font-size: 24px;
+        }
+        .descripcion-gol p {
+        font-size: 18px;
+        }
+        .messi-gol-clasico>video {
+            width: 600px;
+            height:500px;
+        }
+        }
+
+        @media(min-width:600px) and (max-width:850px) {
+
+            .videosGaleria { flex-direction: column;}
+            .descripcion-gol h2 {
+                font-size: 20px;
+            }
+            .descripcion-gol p {
+                font-size: 16px;
+                }
+            .messi-gol-clasico>video {
+                width: 500px;
+                height:400px;
+            }
+            }
+
+
+            @media(min-width:480px) and (max-width:600px) {
+            
+                .videosGaleria { flex-direction: column;}
+                .descripcion-gol h2 {
+                    font-size: 20px;
+                }
+                .descripcion-gol p {
+                    font-size: 16px;
+                    }
+                .messi-gol-clasico>video {
+                    width: 400px;
+                    height:200px;
+                }
+                }
+
+                @media(min-width:320px) and (max-width:480px) {
+
+                    .videosGaleria { flex-direction: column;}
+                    .descripcion-gol h2 {
+                        font-size: 16px;
+                    }
+                    .descripcion-gol p {
+                        font-size: 10px;
+                        }
+                    .messi-gol-clasico>video {
+                        width: 200px;
+                        height:100px;
+                    }
+                    }
+
+
+
+
+
+
+
+
 /*estilos galeria*/
 
 /*messi trayectoria*/
