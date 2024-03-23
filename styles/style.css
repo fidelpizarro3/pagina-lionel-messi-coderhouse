@@ -296,7 +296,15 @@ span{
 }
 
 
+@media(min-width:1024px) and (max-width:1300px) {
     
+    .descripcion-gol p {
+        font-size: 20px;
+    }
+    .messi-gol-clasico video {
+        
+    }
+    }
 
 
     .fotosleo {
