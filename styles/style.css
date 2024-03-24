@@ -17,6 +17,7 @@ footer {
 }
 
 
+
 .main__index {
     display: grid;
     width: 100%;
@@ -25,7 +26,7 @@ footer {
     "section1"
     "section2"
     "footer";
-    grid-template-rows: 120px auto auto 140px;
+    grid-template-rows: auto auto auto 140px;
     height: 100vh;
     margin: 0;
 
@@ -45,8 +46,8 @@ a {
     font-size: 20px;
 }
 
-.clase-navbar{
-    background-color: red;
+.nav-item{
+    background-color: white;
 }
 .section__index{
     background-image: url(../img/imagenes-index/messi\ hero.jpg);
@@ -142,6 +143,12 @@ a {
     }
 }
 @media(min-width:480px) and (max-width:600px) {
+    .section__index {background-image:url(../img/imagenes-index/messi-index-celular.jpg);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    }
     .section__index h1{
         font-size: 40px;
     }
@@ -168,6 +175,14 @@ a {
 }
 
 @media(min-width:320px) and (max-width:480px) {
+    
+    .section__index {background-image:url(../img/imagenes-index/messi-index-celular.jpg);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    }
+
     .section__index h1{
         font-size: 25px;
     }
@@ -180,7 +195,7 @@ a {
         font-size: 25px;
     }
     .section__index2 p{
-        font-size: 10px;
+        font-size: 13px;
         line-height: 1.7;
         text-align: center;
         margin-bottom: 20px;
@@ -196,12 +211,6 @@ a {
     .section__index{
         height: 300px;
     }
-    .main__index {
-        grid-template-rows: 60px auto auto 140px;
-    }
-}
-.footer__index {
-    
 }
 
 li{
@@ -413,15 +422,16 @@ span{
                 @media(min-width:320px) and (max-width:480px) {
 
                     .videosGaleria { flex-direction: column;}
+                    .h1-galeria {font-size: 24 px;}
                     .descripcion-gol h2 {
                         font-size: 16px;
                     }
                     .descripcion-gol p {
-                        font-size: 10px;
+                        font-size: 12px;
                         }
                     .messi-gol-clasico>video {
-                        width: 200px;
-                        height:100px;
+                        width: 300px;
+                        height:160px;
                     }
                     }
 
@@ -473,3 +483,6 @@ position: relative;
     height: 50px;
 
 }
+
+#navbarNav {background-color: antiquewhite;}
+
