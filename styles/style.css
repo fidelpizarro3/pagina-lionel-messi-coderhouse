@@ -26,29 +26,30 @@ footer {
     "section1"
     "section2"
     "footer";
-    grid-template-rows: auto auto auto 140px;
+    grid-template-rows: 0px auto auto 140px;
     height: 100vh;
     margin: 0;
 
 }
 
-.header__index {
+
+ /* .header__index {
     grid-area:header;
     display: flex;
     justify-content: end;
     align-items: center;
-    padding: 20px;
-}
+    padding: 20px; */
 
-a {
+
+/* a {
     padding: 12px;
     text-decoration: none;
     font-size: 20px;
-}
+} */
 
-.nav-item{
+/* .nav-item{
     background-color: white;
-}
+} */
 .section__index{
     background-image: url(../img/imagenes-index/messi\ hero.jpg);
     grid-area: section1;
@@ -169,8 +170,8 @@ a {
         width: 400px;
         height: 370px;
     }
-    .header__index a{
-        font-size: 13px;
+    .nav-link{
+        font-size: 20px;
     }
 }
 
@@ -204,13 +205,10 @@ a {
         width: 300px;
         height: 300px;
     }
-    .header__index a{
-        font-size: 10px;
-        padding: 10px;
+    .nav-link{
+        font-size: 16px;
     }
-    .section__index{
-        height: 300px;
-    }
+    
 }
 
 li{
@@ -405,7 +403,11 @@ span{
 
 
             @media(min-width:480px) and (max-width:600px) {
-            
+                
+                .h1-galeria {
+                    font-size: 24px;
+                }
+
                 .videosGaleria { flex-direction: column;}
                 .descripcion-gol h2 {
                     font-size: 20px;
@@ -422,7 +424,7 @@ span{
                 @media(min-width:320px) and (max-width:480px) {
 
                     .videosGaleria { flex-direction: column;}
-                    .h1-galeria {font-size: 24 px;}
+                    .h1-galeria {font-size: 21px;}
                     .descripcion-gol h2 {
                         font-size: 16px;
                     }
@@ -484,5 +486,5 @@ position: relative;
 
 }
 
-#navbarNav {background-color: antiquewhite;}
+/* #navbarNav {background-color: antiquewhite;} */
 
