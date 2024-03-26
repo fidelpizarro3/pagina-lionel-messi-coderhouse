@@ -334,7 +334,7 @@ span{
         display: flex;
         align-items: center;
         padding: 0px 50px 30px;
-        border: 4px solid cornflowerblue;
+        border: 4px solid rgba(72, 103, 141, 0.99);
         margin: 30px 50px;
     }
 
@@ -432,7 +432,7 @@ span{
                         font-size: 12px;
                         }
                     .messi-gol-clasico>video {
-                        width: 300px;
+                        width: 280px;
                         height:160px;
                     }
                     }
