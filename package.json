@@ -1,0 +1,19 @@
+{
+  "name": "desarrollo-web-pagina-de-messi-pizarro-fidel",
+  "version": "1.0.0",
+  "description": "proyecto con sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fidelpizarro3/pagina-lionel-messi-coderhouse.git"
+  },
+  "author": "Pizarro Fidel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fidelpizarro3/pagina-lionel-messi-coderhouse/issues"
+  },
+  "homepage": "https://github.com/fidelpizarro3/pagina-lionel-messi-coderhouse#readme"
+}
