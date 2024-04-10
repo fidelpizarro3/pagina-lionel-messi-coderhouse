@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     .h1-galeria {
-        color: white;
+        color: $color-primary;
         font-size: 32px;
         margin-top: 80px;
         display: flex;
@@ -13,29 +13,29 @@
         @include for-phone-md {
             font-size: 24px;
         }
+    }
+        div {
+            padding: 20px 50px ;
+            margin:0px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap:20px;
+            align-items: center;
+            justify-content: center;
+        }    
+    }
 
-    }
-    .fotosleo div {
-        padding: 20px 50px ;
-        margin:0px 20px;
-        display: flex;
-        flex-wrap: wrap;
-        gap:20px;
-        align-items: center;
-        justify-content: center;
-    }
-    .fotosleo img {
-        border-radius: 30px;
-        height: 250px;
-        width: 350px;
-    }
-    .imagenes-iconicas:hover {
-        transform: scale(1.1);
-        transition: transform 0.3s ease-in-out;
-    }
-    .imagenes-iconicas:not(hover) {
-        transition: transform 0.3s ease-in-out;
-    }
+.imagenes-iconicas {
+    border-radius: 30px;
+    height: 250px;
+    width: 350px;
+}
+.imagenes-iconicas:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+.imagenes-iconicas:not(hover) {
+    transition: transform 0.3s ease-in-out;
 }
 
 .videosGaleria {
