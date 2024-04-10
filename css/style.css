@@ -1,24 +1,25 @@
-*{
+/* *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
-body {
+
+/* body {
     background-color: rgba(27, 32, 38, 0.99);
-}
+} */
 
-header {
+/* footer {
     background-color: rgba(72, 103, 141, 0.99);
+} */
+
+li{
+    list-style: none;
+    display: inline;
 }
 
-footer {
-    background-color: rgba(72, 103, 141, 0.99);
-}
 
-
-
-.main__index {
+/* .main__index {
     display: grid;
     width: 100%;
     grid-template-areas:
@@ -29,12 +30,11 @@ footer {
     grid-template-rows: 0px auto auto 140px;
     height: 100vh;
     margin: 0;
+} */
 
-}
 
-
-.section__index{
-    background-image: url(../img/imagenes-index/messi\ hero.jpg);
+/* .section__index{
+    background-image: url(../img/imagenes-index/messi-hero.jpg);
     grid-area: section1;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,9 +48,9 @@ footer {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-}
+} */
 
-.section__index2 {
+/* .section__index2 {
     grid-area: section2;
     display:flex;
     margin: 50px 50px;
@@ -73,12 +73,12 @@ footer {
     text-align: center;
     font-size: 40px;
     margin-bottom: 2%;
-}
- @media (min-width:1300px) {
+} */
+/* @media (min-width:1300px) {
     .section__index2 img {padding-right: 20px;
     }
- }
-@media(min-width:1024px) and (max-width:1300px) {
+} */
+/* @media(min-width:1024px) and (max-width:1300px) {
     .section__index2 h2{
         font-size: 30px;
     }
@@ -86,16 +86,16 @@ footer {
         font-size: 23px;
         line-height: 1.7;
     }
-    .section__index2 img { 
+    .section__index2 img {
         padding-right: 20px;
     }
-}
+} */
 
-@media(min-width:820px) and (max-width:1024px) {
+/* @media(min-width:820px) and (max-width:1024px) {
     .section__index2 h2{
         font-size: 30px;
     }
-    .section__index2 img { 
+    .section__index2 img {
         padding-right: 20px;
     }
     .section__index2 p{
@@ -103,14 +103,12 @@ footer {
         line-height: 1.7;
         margin-bottom: 20px;
     }
-}
+} */
 
-@media(min-width:600px) and (max-width:850px) {
+/* @media(min-width:600px) and (max-width:850px) {
     .section__index h1{
         font-size: 40px;
     }
-
-
     .section__index2{
         flex-direction: column-reverse;
         align-items: center;
@@ -124,8 +122,8 @@ footer {
         text-align: center;
         margin-bottom: 20px;
     }
-}
-@media(min-width:480px) and (max-width:600px) {
+} */
+/* @media(min-width:480px) and (max-width:600px) {
     .section__index {background-image:url(../img/imagenes-index/messi-index-celular.jpg);
         background-position: center;
     background-repeat: no-repeat;
@@ -136,8 +134,8 @@ footer {
         font-size: 40px;
     }
     .section__index2{
-        flex-direction: column-reverse;
         align-items: center;
+        flex-direction: column-reverse;
     }
     .section__index2 h2{
         font-size: 25px;
@@ -151,61 +149,29 @@ footer {
     .section__index2 img{
         width: 400px;
         height: 370px;
-    }
+    } */
     .nav-link{
         font-size: 20px;
     }
 }
 
-@media(min-width:320px) and (max-width:480px) {
-    
-    .section__index {background-image:url(../img/imagenes-index/messi-index-celular.jpg);
-        background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    }
-
-    .section__index h1{
-        font-size: 25px;
-    }
-    .section__index2{
-        flex-direction: column-reverse;
-        align-items: center;
-
-    }
-    .section__index2 h2{
-        font-size: 25px;
-    }
-    .section__index2 p{
-        font-size: 13px;
-        line-height: 1.7;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .section__index2 img{
-        width: 300px;
-        height: 300px;
-    }
+/* }
     .nav-link{
         font-size: 16px;
     }
-    
-}
 
-li{
-    list-style: none;
-    display: inline;
-}
+} */
 
 
+
+/*
 .messiMostrandoCamiseta{
     width: 10px;
     height: 10px;
     text-align: left;
-    }
+    } */
 
-.logros {
+/* .logros {
     color: aliceblue;
     font-size: 32px;
     text-align: center;
@@ -218,17 +184,10 @@ li{
 .fotosleo img {
     width: 300px;
     height: 250px;
-}
+} */
 
 
-
-.diseño-footer {
-    padding-top: 40px;
-    text-align: center;
-    padding-bottom: 20px;
-    font-size: 16px;
-
-}
+/* 
 .intro {  display: flex;
     width: 1200px;
     margin: 0 auto;
@@ -238,57 +197,34 @@ li{
 }
 .intro img {
     height: 600px
-}
-.formulario {
-color: aliceblue;
-display: flex;
-justify-content: space-evenly;
-padding-top: 50px;
-align-items: center;
-justify-content: center;
-font-size: 24px;
-    
-}
-form {
-    text-align: center;
-    margin: auto 50px;
-}
-span{
-    background-color: cornflowerblue;
-    color: black;
-    border-radius: 10px;
-    text-align:center;
-    font-size: 27px;
-}
-
+} */
 
 
 /*estilos galeria*/
 
-.imagenes-iconicas:hover {
+/* .imagenes-iconicas:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
 }
-
 .imagenes-iconicas:not(hover) {
     transition: transform 0.3s ease-in-out;
-}
+} */
 
-.h1-galeria {
+/* .h1-galeria {
     color: white;
     font-size: 32px;
-    margin-top: 80px; 
+    margin-top: 80px;
     display: flex;
     justify-content: center;
-}
+} */
 
-    .fotosleo {
+    /* .fotosleo {
         display: flex;
         flex-direction: column;
 
-    }
+    } */
 
-    .fotosleo div {
+    /* .fotosleo div {
         padding: 20px 50px ;
         margin:0px 20px;
         display: flex;
@@ -296,17 +232,13 @@ span{
         gap:20px;
         align-items: center;
         justify-content: center;
-    }
+    } */
 
-    .fotosleo img {
+    /* .fotosleo img {
         border-radius: 30px;
         height: 250px;
-        width: 350px;
-        
-    
-    }
-
-    p {
+        width: 350px; */
+    /* p {
         font-size: 24px;
         color: antiquewhite;
     }
@@ -316,33 +248,30 @@ span{
         padding: 0px 50px 30px;
         border: 4px solid rgba(72, 103, 141, 0.99);
         margin: 30px 50px;
-    }
+    } */
 
-    .videosGaleria video{
+    /* .videosGaleria video{
         width: 700px;
         height: 600px;
-    
-    }
 
-    .messi-gol-clasico {
+    } */
+
+    /* .messi-gol-clasico {
         display:block;
-        
-    }
-    .descripcion-gol {
+    } */
+    /* .descripcion-gol {
         display: inline-block;
         justify-content: center;
         text-align: center;
         align-items: center;
-    }
-    h2 {
+    } */
+    /* h2 {
         color: aliceblue;
         font-size: 32px;
         padding-bottom: 20px;
-    }
+    } */
 
-    @media(min-width:1024px) and (max-width:1300px) {
-        
-
+    /* @media(min-width:1024px) and (max-width:1300px) {
         .descripcion-gol p {
             font-size: 20px;
         }
@@ -351,7 +280,7 @@ span{
             height:400px;
         }
         }
-    
+
         @media(min-width:820px) and (max-width:1024px) {
         .videosGaleria { flex-direction: column;}
         .descripcion-gol h2 {
@@ -364,9 +293,9 @@ span{
             width: 600px;
             height:500px;
         }
-        }
+        } */
 
-        @media(min-width:600px) and (max-width:850px) {
+        /* @media(min-width:600px) and (max-width:850px) {
 
             .videosGaleria { flex-direction: column;}
             .descripcion-gol h2 {
@@ -379,47 +308,45 @@ span{
                 width: 500px;
                 height:400px;
             }
-            }
+            } */
 
 
-            @media(min-width:480px) and (max-width:600px) {
-                
+            /* @media(min-width:480px) and (max-width:600px) {
+
                 .h1-galeria {
                     font-size: 24px;
-                }
+                } */
 
-                .videosGaleria { flex-direction: column;}
+                /* .videosGaleria { flex-direction: column;}
                 .descripcion-gol h2 {
                     font-size: 20px;
                 }
                 .descripcion-gol p {
                     font-size: 16px;
-                    }
-                .messi-gol-clasico>video {
+                    } */
+                /* .messi-gol-clasico>video {
                     width: 400px;
                     height:200px;
                 }
-                }
+                } */
 
-                @media(min-width:320px) and (max-width:480px) {
-
-                    .videosGaleria { flex-direction: column;}
-                    .h1-galeria {font-size: 21px;}
-                    .descripcion-gol h2 {
+                     /* .videosGaleria { flex-direction: column;} */
+                    /* .h1-galeria {font-size: 21px;} */
+                    /* .descripcion-gol h2 {
                         font-size: 16px;
-                    }
-                    .descripcion-gol p {
+                    } */
+                    /* .descripcion-gol p {
                         font-size: 12px;
-                        }
-                    .messi-gol-clasico>video {
+                        } */
+                    /* .messi-gol-clasico>video {
                         width: 280px;
                         height:160px;
                     }
-                    }
+                    } */
 /*estilos galeria*/
 
 /*messi trayectoria*/
-.messi-trayectoria {
+/* .messi-trayectoria {
     color: aliceblue;
 }
 
@@ -456,4 +383,21 @@ position: relative;
     width: 50px;
     height: 50px;
 
-}
+} */
+
+
+.formulario {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    
+    }
+    form {
+        text-align: center;
+        margin: auto 50px;
+    }
+
