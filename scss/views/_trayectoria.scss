@@ -1,0 +1,31 @@
+h2 {   color: $color-primary;
+  text-align: center;
+}
+
+p {  color: $color-primary;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 40px;
+  } 
+
+.medida-imagenes {
+  height: 500px;
+  width: 1050px;
+  align-items: center;
+  
+}
+
+.carousel-inner {
+  padding: 50px 100px;
+}
+
+.newells {  background:linear-gradient(to left, black,red);
+      margin: auto 50px;
+      border-radius: 50px;
+    }
+
+.barcelona {background:linear-gradient(to left, rgb(16, 16, 163),red);
+    margin: auto 50px;
+    border-radius: 50px;
+    margin-top: 50px; 
+    }
