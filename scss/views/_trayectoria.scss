@@ -12,8 +12,8 @@ p {  color: $color-primary;
   height: 500px;
   width: 1050px;
   align-items: center;
-  
-}
+  border-radius: 20px;
+  }
 
 .carousel-inner {
   padding: 50px 100px;
@@ -29,3 +29,18 @@ p {  color: $color-primary;
     border-radius: 50px;
     margin-top: 50px; 
     }
+    .psg{
+      background:linear-gradient( rgb(10, 3, 95, 0.904) 30%, #fff, rgb(196, 13, 13));
+    margin: auto 50px;
+    border-radius: 50px;
+    margin-top: 50px; 
+    }
+
+    .inter {
+background: linear-gradient(to left, rgb(255, 30, 188),#000 50%);
+      margin: auto 50px;
+      border-radius: 50px;
+      margin-top: 50px; 
+      margin-bottom: 50px;
+    }
+
