@@ -1,39 +1,93 @@
 h2 {   color: $color-primary;
   text-align: center;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 12px 2px black;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 15px;
+  background-color:#ffffffb2;
+  color: #000;
 }
 
 p {  color: $color-primary;
     font-size: 25px;
     text-align: center;
+    line-height: 1.7;
     padding: 10px 40px;
+
+    @include for-phone-sm{
+    font-size: 11px;
+    }
+
+    @include for-phone-md {
+      font-size: 15px;
+    }
+    @include for-tablet-portrait-up-sm {
+      font-size: 18px;
+    }
+    @include for-tablet-portrait-up-md {
+      font-size: 22px;
+    }
+    
   } 
 
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 .medida-imagenes {
-  height: 500px;
-  width: 1050px;
+  height: 550px;
+  width: 100%;
   align-items: center;
   border-radius: 20px;
+  @include for-phone-sm {
+    height: 200px;
+  }
+  @include for-phone-md {
+    height: 280px;
+  }
+  @include for-tablet-portrait-up-sm {
+    height: 330px;
+
+  }
+  @include for-tablet-portrait-up-md {
+height: 400px;
+  }
+  @include for-desktop-up {
+    height: 500px;
+  }
+  @include for-desktop-up-big{
+    height: 550px;
+  }
   }
 
-.carousel-inner {
-  padding: 50px 100px;
-}
+// .carousel-inner {
+//   padding: 50px 100px;
+// }
 
 .newells {  background:linear-gradient(to left, black,red);
       margin: auto 50px;
       border-radius: 50px;
+      box-shadow: 1px 1px 12px 2px black;
     }
 
 .barcelona {background:linear-gradient(to left, rgb(16, 16, 163),red);
     margin: auto 50px;
     border-radius: 50px;
     margin-top: 50px; 
+    box-shadow: 1px 1px 12px 2px black;
+
     }
     .psg{
       background:linear-gradient( rgb(10, 3, 95, 0.904) 30%, #fff, rgb(196, 13, 13));
     margin: auto 50px;
     border-radius: 50px;
     margin-top: 50px; 
+    box-shadow: 1px 1px 12px 2px black;
+
     }
 
     .inter {
@@ -42,5 +96,7 @@ background: linear-gradient(to left, rgb(255, 30, 188),#000 50%);
       border-radius: 50px;
       margin-top: 50px; 
       margin-bottom: 50px;
+      box-shadow: 1px 1px 12px 2px black;
+
     }
 

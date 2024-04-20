@@ -385,30 +385,93 @@ footer {
 h2 {
   color: #fff;
   text-align: center;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 12px 2px black;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 15px;
+  background-color: rgba(255, 255, 255, 0.6980392157);
+  color: #000;
 }
 
 p {
   color: #fff;
   font-size: 25px;
   text-align: center;
+  line-height: 1.7;
   padding: 10px 40px;
+}
+@media (min-width: 320px) {
+  p {
+    font-size: 11px;
+  }
+}
+@media (min-width: 480px) {
+  p {
+    font-size: 15px;
+  }
+}
+@media (min-width: 600px) {
+  p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 850px) {
+  p {
+    font-size: 22px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .medida-imagenes {
-  height: 500px;
-  width: 1050px;
+  height: 550px;
+  width: 100%;
   align-items: center;
   border-radius: 20px;
 }
-
-.carousel-inner {
-  padding: 50px 100px;
+@media (min-width: 320px) {
+  .medida-imagenes {
+    height: 200px;
+  }
+}
+@media (min-width: 480px) {
+  .medida-imagenes {
+    height: 280px;
+  }
+}
+@media (min-width: 600px) {
+  .medida-imagenes {
+    height: 330px;
+  }
+}
+@media (min-width: 850px) {
+  .medida-imagenes {
+    height: 400px;
+  }
+}
+@media (min-width: 1024px) {
+  .medida-imagenes {
+    height: 500px;
+  }
+}
+@media (min-width: 1300px) {
+  .medida-imagenes {
+    height: 550px;
+  }
 }
 
 .newells {
   background: linear-gradient(to left, black, red);
   margin: auto 50px;
   border-radius: 50px;
+  box-shadow: 1px 1px 12px 2px black;
 }
 
 .barcelona {
@@ -416,6 +479,7 @@ p {
   margin: auto 50px;
   border-radius: 50px;
   margin-top: 50px;
+  box-shadow: 1px 1px 12px 2px black;
 }
 
 .psg {
@@ -423,6 +487,7 @@ p {
   margin: auto 50px;
   border-radius: 50px;
   margin-top: 50px;
+  box-shadow: 1px 1px 12px 2px black;
 }
 
 .inter {
@@ -431,6 +496,7 @@ p {
   border-radius: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
+  box-shadow: 1px 1px 12px 2px black;
 }
 
 /*# sourceMappingURL=main.css.map */
