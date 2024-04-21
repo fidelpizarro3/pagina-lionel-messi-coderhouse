@@ -1,4 +1,4 @@
-h2 {   color: $color-primary;
+.h2-trayectoria {   color: $color-primary;
   text-align: center;
   border: 3px solid black;
   border-radius: 10px;
@@ -57,10 +57,10 @@ p {  color: $color-primary;
 height: 400px;
   }
   @include for-desktop-up {
-    height: 500px;
+    height: 520px;
   }
   @include for-desktop-up-big{
-    height: 550px;
+    height: 570px;
   }
   }
 
@@ -97,6 +97,14 @@ background: linear-gradient(to left, rgb(255, 30, 188),#000 50%);
       margin-top: 50px; 
       margin-bottom: 50px;
       box-shadow: 1px 1px 12px 2px black;
+    }
 
+    .argentina {
+      background: linear-gradient( rgb(0, 119, 255),#fff);
+      margin: auto 50px;
+      border-radius: 50px;
+      margin-top: 50px; 
+      margin-bottom: 50px;
+      box-shadow: 1px 1px 12px 2px black;
     }
 
