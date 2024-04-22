@@ -508,16 +508,34 @@ p {
   box-shadow: 1px 1px 12px 2px black;
 }
 
-.body-contact {
-  background-color: white;
+.main-contact {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 320px) {
+  .main-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 850px) {
+  .main-contact {
+    flex-direction: row;
+  }
+}
+
+.maps {
+  margin: 100px 60px;
 }
 
 form {
   padding: 50px 55px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 20px 20px 12px rgb(0, 0, 0);
   border-radius: 20px;
   text-align: center;
   width: 400px;
+  background-color: #fff;
+  margin-bottom: 30px;
 }
 
 .input-group {

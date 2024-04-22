@@ -4,15 +4,33 @@
 //     display: flex;
 //     align-items: center;
 //     justify-content: center;
-background-color: white;
- }
+// background-image: url(../img/imagenes-contacto/messi-contacto.jpg);
+// background-size:cover;
+}
+.main-contact {
+    display: flex;
+    justify-content: center;
+    @include for-phone-sm {
+        flex-direction: column;
+        align-items: center;
+    }
+    @include for-tablet-portrait-up-md{
+        flex-direction: row;
+    }
+}
 
+.maps {
+    margin: 100px 60px;
+}
 form {
     padding: 50px 55px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 20px 20px 12px rgba(0, 0, 0);
     border-radius: 20px;
     text-align: center;
     width: 400px;
+    background-color:#fff;
+    //margin-left: 20px;
+    margin-bottom:30px;
 }
 
 .input-group {
@@ -33,7 +51,7 @@ label {
     margin-bottom: 15px;   
 }
 
-input, textarea {
+input , textarea {
     padding: 17px 25px;
     border-radius: 25px;
     margin-bottom: 20px;
