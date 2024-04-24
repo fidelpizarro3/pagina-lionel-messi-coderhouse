@@ -41,7 +41,6 @@
 .videosGaleria {
     display: flex;
     align-items: center;
-    padding: 0px 50px 30px;
     border: 4px solid rgba(72, 103, 141, 0.99);
     margin: 30px 50px;
     @include for-phone-sm {
@@ -88,6 +87,7 @@
             color: antiquewhite;
             @include for-phone-sm {
                 font-size: 14px;
+                padding: 0px;
             }
             @include for-phone-md {
                 font-size: 16px;
@@ -108,23 +108,27 @@
     display:block;
     video{
             @include for-phone-sm {
-                width: 280px;
+                width: 100%;
                 height:160px;
             }
             @include for-phone-md {
-                width: 400px;
+                width: 100%;
+                //width: 400px;
                 height:200px;
             }
             @include for-tablet-portrait-up-sm {
-                width: 500px;
+                width: 100%;
+                //width: 500px;
                 height:400px;
             }
             @include for-tablet-portrait-up-md {
-                width: 600px;
+                width: 100%;
+                //width: 600px;
                 height:500px;
             }
             @include for-desktop-up{
-                width: 500px;
+                width: 100%;
+                //width: 500px;
                 height:400px;
             }
         }

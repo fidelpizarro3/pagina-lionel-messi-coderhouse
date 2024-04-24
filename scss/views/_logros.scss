@@ -41,3 +41,15 @@ hr {
     font-size: 18px;
     line-height: 1.7;
 }
+
+
+.fotos-logros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+    img{
+    width:350px;
+    height: 300px;
+    }
+}
