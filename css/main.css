@@ -407,7 +407,9 @@ p {
 }
 @media (min-width: 320px) {
   p {
-    font-size: 11px;
+    font-size: 13px;
+    padding: 0px;
+    text-align: left;
   }
 }
 @media (min-width: 480px) {
@@ -486,7 +488,7 @@ p {
 }
 
 .psg {
-  background: linear-gradient(rgba(10, 3, 95, 0.904) 30%, #fff, rgb(196, 13, 13));
+  background: linear-gradient(rgba(10, 3, 95, 0.904) 40%, #fff, rgb(196, 13, 13));
   margin: auto 50px;
   border-radius: 50px;
   margin-top: 50px;
@@ -538,13 +540,12 @@ hr {
 .logros-totales p {
   font-size: 20px;
   padding: 0px;
-  text-align: justify;
+  text-align: center;
 }
 
 .card {
   background-color: rgba(27, 32, 38, 0.99);
-  box-shadow: 1px 1px 12px 2px black;
-  border: 1px solid black;
+  box-shadow: 10px 10px 12px 5px black;
   margin: 20px;
 }
 

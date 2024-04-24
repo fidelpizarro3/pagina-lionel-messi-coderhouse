@@ -17,8 +17,10 @@ p {  color: $color-primary;
     padding: 10px 40px;
 
     @include for-phone-sm{
-    font-size: 11px;
-    }
+      font-size: 13px;
+      padding: 0px;
+      text-align: left;
+      }
 
     @include for-phone-md {
       font-size: 15px;
@@ -82,7 +84,7 @@ height: 400px;
 
     }
     .psg{
-      background:linear-gradient( rgb(10, 3, 95, 0.904) 30%, #fff, rgb(196, 13, 13));
+      background:linear-gradient( rgb(10, 3, 95, 0.904) 40%, #fff, rgb(196, 13, 13));
     margin: auto 50px;
     border-radius: 50px;
     margin-top: 50px; 

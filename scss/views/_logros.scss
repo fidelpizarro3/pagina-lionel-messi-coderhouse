@@ -22,15 +22,14 @@ hr {
     p {
         font-size: 20px;
         padding: 0px;
-        text-align: justify;
+        text-align:center;
     }
 
 }
 
 .card {
     background-color: $background-primary;
-    box-shadow: 1px 1px 12px 2px black;
-    border: 1px solid black;
+    box-shadow: 10px 10px 12px 5px black;
     margin: 20px;
 }
 
