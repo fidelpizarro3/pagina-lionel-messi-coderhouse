@@ -51,7 +51,6 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
   }
 }
 @media (min-width: 480px) {
@@ -60,7 +59,6 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
   }
 }
 .section__index h1 {
@@ -104,6 +102,11 @@ footer {
 @media (min-width: 600px) {
   .section__index2 {
     align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 850px) {
+  .section__index2 {
     flex-direction: row;
   }
 }
@@ -171,20 +174,21 @@ footer {
 }
 .section__index2 p {
   color: #fff;
+  text-align: center;
+  margin: 30px;
+  padding: 0px;
 }
 @media (min-width: 320px) {
   .section__index2 p {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.7;
-    text-align: center;
     margin-bottom: 20px;
   }
 }
 @media (min-width: 480px) {
   .section__index2 p {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.7;
-    text-align: center;
     margin-bottom: 20px;
   }
 }
@@ -192,7 +196,6 @@ footer {
   .section__index2 p {
     font-size: 16px;
     line-height: 1.7;
-    text-align: center;
     margin-bottom: 20px;
   }
 }
@@ -534,6 +537,8 @@ hr {
 }
 .logros-totales p {
   font-size: 20px;
+  padding: 0px;
+  text-align: justify;
 }
 
 .card {
@@ -550,6 +555,7 @@ hr {
 .card-text {
   font-size: 18px;
   line-height: 1.7;
+  padding: 0px;
 }
 
 .fotos-logros {

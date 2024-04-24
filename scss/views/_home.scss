@@ -33,14 +33,12 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size:cover;
-        background-attachment: fixed;
-    }
+        }
     @include for-phone-md {
         background-image: url(../img/imagenes-index/messi-hero.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size:cover;
-        background-attachment: fixed;
     }
     h1 {
         font-size: 60px;
@@ -72,8 +70,12 @@
     }
      @include for-tablet-portrait-up-sm {
         align-items: center;
-        flex-direction: row;
+        flex-direction: column-reverse;
      }
+    @include for-tablet-portrait-up-md {
+        flex-direction: row;
+    }
+    
     img {
         width: 500px;
         height: 450px;
@@ -118,22 +120,23 @@
     }
     p 
         {color:$color-primary;
-        @include for-phone-sm {
-            font-size: 13px;
-            line-height: 1.7;
             text-align: center;
+            margin: 30px;
+            padding: 0px;
+
+        @include for-phone-sm {
+            font-size: 15px;
+            line-height: 1.7;
             margin-bottom: 20px;
         }
         @include for-phone-md {
-            font-size: 13px;
+            font-size: 15px;
             line-height: 1.7;
-            text-align: center;
             margin-bottom: 20px;
         }
         @include for-tablet-portrait-up-sm {
             font-size: 16px;
             line-height: 1.7;
-            text-align: center;
             margin-bottom: 20px;
         }
         @include for-tablet-portrait-up-md {

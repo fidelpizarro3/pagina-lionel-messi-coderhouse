@@ -19,9 +19,10 @@ hr {
 .logros-totales {
     margin: auto 50px;
     border-radius: 50px;
-    //box-shadow: 1px 1px 12px 2px black;
     p {
         font-size: 20px;
+        padding: 0px;
+        text-align: justify;
     }
 
 }
@@ -40,6 +41,7 @@ hr {
 .card-text {
     font-size: 18px;
     line-height: 1.7;
+    padding: 0px;
 }
 
 
